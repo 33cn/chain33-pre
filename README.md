@@ -6,11 +6,11 @@ chain33-pre节点可单独部署，也支持部署多节点，多节点部署可
 
 # 运行
 ```shell
-git clone https://github.com/33cn/chain33-pre.git
+wget https://bty33.oss-cn-shanghai.aliyuncs.com/chain33-Pre.tar.gz
 
-cd  chain33-pre
+tar xzvf chain33-Pre.tar.gz
 
-go build -o chain33-pre main.go
+cd chain33-Pre
 
 ./chain33-pre -f chain33.pre.toml
 ```
